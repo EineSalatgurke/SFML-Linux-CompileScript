@@ -5,4 +5,4 @@ Also I never learned Bash-Scripting, I just wanted a handy Console-Command for c
 
 ## How to use:
 Example of a Project-Layout:
-![Project-Layout](https://github.com/EineSalatgurke/SFML-Linux-CompileScript/projectLayout.png)
+![Project-Layout](https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png)
