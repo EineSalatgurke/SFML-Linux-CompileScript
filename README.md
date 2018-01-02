@@ -6,3 +6,7 @@ Also I never learned Bash-Scripting, I just wanted a handy Console-Command for c
 ## How to use
 Example of a Project-Layout:  
 ![Project-Layout](https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
+</p>
