@@ -3,9 +3,7 @@
   Also I never learned Bash-Scripting, I just wanted a handy Console-Command for compiling my SFML-Code.  
 ## How to use
 Example of a Project-Layout:  
-<p align="center">
-  <img src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
-</p>
+  <img style="margin-left: 20px;" src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
 <ul>
   <li>Your *.cpp-Files need to be located in the SourceFiles-Folder</li>
   <li>Your *.h-Files need to be located in the HeaderFiles-Folder</li>
