@@ -22,5 +22,5 @@ else
 		shift
 	done
 	# Compiling the C++/SFML-Code
-	g++ -IHeaderFiles ./SourceFiles/$mainFile $restArgs -o game -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network
+	g++ -IHeaderFiles ./SourceFiles/$mainFile $restArgs -o sfml_app -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network
 fi
