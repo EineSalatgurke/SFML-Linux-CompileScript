@@ -9,5 +9,11 @@ Example of a Project-Layout:
   <img src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
 </p>
 <ul>
-  <li>Your *.cpp-Files need to be in the ```SourceFiles```</li>
+  <li>Your *.cpp-Files need to be located in the SourceFiles-Folder</li>
+  <li>Your *.hpp-Files need to be located in the HeaderFiles-Folder</li>
 </ul>
+
+Console-Command to Complie the Example:
+```
+${ProjectFolder} sfmlc main.cpp firstClass.cpp otherClass.cpp
+```
