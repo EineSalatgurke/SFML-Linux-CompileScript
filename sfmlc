@@ -1,0 +1,26 @@
+#!/bin/bash
+# Determine if the user asks for help or wants to compile the code
+if [ "$1" == "?" ]; then
+	bold=$(tput bold)
+	normal=$(tput sgr0)
+	helptxt="\e[1;34m"
+	echo -e "${bold}sfmlc: ${helptxt}Help: ${normal}Syntax: sfmlc main_file.cpp otherfile.cpp otherfile2.cpp ..."
+elif [ -z "$1" ]; then
+	err="\e[1;31m"
+	bold=$(tput bold)
+	normal=$(tput sgr0)
+	echo -e "${bold}sfmlc: ${err}Error:${normal} Type \"sfmlc ?\" for help"
+else	
+	# Variables
+	mainFile=$1
+	# Ignore param1
+	shift
+	restArgs=""
+	# Iterate through params
+	for i in "$@";do
+		restArgs=$restArgs"./SourceFiles/"$i" "
+		shift
+	done
+	# Compiling the C++/SFML-Code
+	g++ -IHeaderFiles ./SourceFiles/$mainFile $restArgs -o game -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network
+fi
