@@ -16,4 +16,4 @@ Console-Command to Complie the Example:
 ${ProjectFolder} sfmlc main.cpp firstClass.cpp otherClass.cpp
 ```
 This will generate an executable file called *sfml_app*.  
-And your done! ;)
+And your done!
