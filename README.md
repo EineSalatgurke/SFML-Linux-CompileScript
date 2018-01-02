@@ -3,12 +3,12 @@
   Also I never learned Bash-Scripting, I just wanted a handy Console-Command for compiling my SFML-Code.  
 ## How to use
 Example of a Project-Layout:  
-  
-  <img src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
+<br>
+<img src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
 * Your \*.cpp-Files need to be located in the *SourceFiles*-Folder
 * Your \*.h-Files need to be located in the *HeaderFiles*-Folder
-
-Console-Command to Complie the Example:
+<br>
+__Console-Command to Complie the Example:__
 ```
 ${ProjectFolder} sfmlc main.cpp firstClass.cpp otherClass.cpp
 ```
