@@ -4,7 +4,7 @@
 ## How to use
 Example of a Project-Layout:  
   
-<img src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
+!(https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png)
 * Your \*.cpp-Files need to be located in the *SourceFiles*-Folder
 * Your \*.h-Files need to be located in the *HeaderFiles*-Folder
   
