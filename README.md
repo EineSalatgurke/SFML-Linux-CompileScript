@@ -6,7 +6,7 @@ Example of a Project-Layout:
 <br>
   <img src="https://raw.githubusercontent.com/EineSalatgurke/SFML-Linux-CompileScript/master/projectLayout.png">
 * Your \*.cpp-Files need to be located in the *SourceFiles*-Folder
-* Your \*.h-Files need to be located in the HeaderFiles-Folder
+* Your \*.h-Files need to be located in the *HeaderFiles*-Folder
   
 Console-Command to Complie the Example:
 ```
