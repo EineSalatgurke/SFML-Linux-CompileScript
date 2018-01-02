@@ -3,7 +3,7 @@
   Also I never learned Bash-Scripting, I just wanted a handy Console-Command for compiling my SFML-Code.  
   
 ## Requirements
-You need the default SFML-Installation for Linux
+You need the default SFML-Installation for Linux  
 __Installation:__
 ```
 $ sudo apt-get install libsfml-dev
