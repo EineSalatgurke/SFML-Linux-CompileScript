@@ -8,10 +8,12 @@ Example of a Project-Layout:
 </p>
 <ul>
   <li>Your *.cpp-Files need to be located in the SourceFiles-Folder</li>
-  <li>Your *.hpp-Files need to be located in the HeaderFiles-Folder</li>
+  <li>Your *.h-Files need to be located in the HeaderFiles-Folder</li>
 </ul>
 
 Console-Command to Complie the Example:
 ```
 ${ProjectFolder} sfmlc main.cpp firstClass.cpp otherClass.cpp
 ```
+This will generate an executable file called *sfml_app*.  
+And your done! ;)
